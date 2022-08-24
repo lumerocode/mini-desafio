@@ -1,0 +1,23 @@
+.nav {
+    max-width: var(--container-width-ms);
+    margin: auto;
+}
+
+.nav__links {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    padding: 30px 0px;
+}
+
+.nav__link {
+    background: #C5E6F9;
+    color: #000;
+    padding: 6px 22px;
+    border-radius: 6px;
+}
+
+.active {
+    font-weight: bold;
+    background: yellow;
+}

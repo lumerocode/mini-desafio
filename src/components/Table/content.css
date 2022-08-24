@@ -1,0 +1,19 @@
+.main__title {
+    text-align: center;
+}
+
+.main__table {
+    display: flex;
+    justify-content: center;
+}
+
+.table {
+    margin-top: 20px;
+    text-align: center;
+    border: 1px solid #000;
+}
+
+.table__column {
+    padding: 20px;
+    border: 1px solid #000;
+}
