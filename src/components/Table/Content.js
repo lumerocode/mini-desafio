@@ -9,7 +9,7 @@ export const Content = () => {
   
   return (
       <main className='main'>
-        <h2 className='main__title'>Tabla de Contenido</h2>
+        <h2 className='main__title'>Table of Contents</h2>
         <div className='main__table'>
           <table className='table'>
             <thead className='table__header'>

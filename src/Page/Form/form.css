@@ -2,3 +2,40 @@
     max-width: var(--container-width-ms);
     margin: auto;
 }
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    margin-top: 50px;
+}
+
+.form__name, .form__email {
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    width: 30%;
+}
+
+.form__textarea {
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    width: 30%;
+    height: 10em;
+}
+
+.form__button {
+    background: #54BD95;
+    color: white;
+    font-weight: bold;
+    padding: 12px 32px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.message {
+    text-align: center;
+    margin-top: 50px;
+}

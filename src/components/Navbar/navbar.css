@@ -11,13 +11,18 @@
 }
 
 .nav__link {
-    background: #C5E6F9;
+    background: #a2f1d3;
     color: #000;
     padding: 6px 22px;
     border-radius: 6px;
 }
 
+.nav__link:hover {
+    background: #54BD95;
+}
+
 .active {
     font-weight: bold;
-    background: yellow;
+    background: #54BD95;
+    color: white;
 }
